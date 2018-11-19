@@ -1,0 +1,1 @@
+CREATE VIEW qw as SELECT pelanggan.nometer, tarif.daya FROM pelanggan, tarif WHERE pelanggan.kodetarif = tarif.kodetarif
